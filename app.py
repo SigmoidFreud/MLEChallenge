@@ -9,7 +9,7 @@ import redis
 app = Flask(__name__)
 # os.system('docker run -d -p 6379:6379 redis')
 cache_client = redis.StrictRedis(host='localhost', port=6379, db=0, decode_responses=True)
-
+loaded_model = None
 
 def is_redis_available(r):
 	try:
@@ -19,18 +19,20 @@ def is_redis_available(r):
 		print("Redis connection error, creating new connection!")
 		return False
 	return True
-
-
-if not is_redis_available(cache_client):
-	os.system('docker run -d -p 6379:6379 redis')
-	cache_client = redis.StrictRedis(host='localhost', port=6379, db=0, decode_responses=True)
 	
-model_id = 1
-cache_client.set('model_id', model_id)
-loaded_model = pickle.load(open(f'featureData/lg_models/{model_id}_lg_model.sav', 'rb'))
+
+def startup_logistics():
+	global loaded_model, cache_client
+	if not is_redis_available(cache_client):
+		os.system('docker run -d -p 6379:6379 redis')
+		cache_client = redis.StrictRedis(host='localhost', port=6379, db=0, decode_responses=True)
+		cache_client.set('model_id', 1)
+	selected_model_id = cache_client.get('model_id')
+	loaded_model = pickle.load(open(f'featureData/lg_models/{selected_model_id}_lg_model.sav', 'rb'))
 
 
 def generate_click_probability(data):
+	model_id = cache_client.get('model_id')
 	f = open('featureData/feature_column_index_map.json')
 	feature_column_index_map = json.load(f)
 	feature_vector = [None] * len(feature_column_index_map)
@@ -55,7 +57,7 @@ def model_selection_proc(data):
 
 
 def get_selected_model():
-	return {'model_id': str(cache_client.get('model_id'))}
+	return {'model_id': cache_client.get('model_id')}
 
 
 @app.route('/click_probability', methods=['POST'])
@@ -77,7 +79,6 @@ def current_model_id():
 
 @app.route('/available_model_ids', methods=['GET'])
 def available_model_ids():
-	global model_id
 	model_ids = []
 	for lg_model in pathlib.Path('featureData/lg_models').glob('*.sav'):
 		lg_model_filename = str(lg_model)
@@ -89,3 +90,4 @@ def available_model_ids():
 
 if __name__ == '__main__':
 	app.run()
+	startup_logistics()

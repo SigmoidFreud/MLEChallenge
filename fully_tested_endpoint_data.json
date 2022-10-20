@@ -37,7 +37,7 @@
         },
         "output": {
             "click_probability": 0.9985071799410503,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
@@ -54,7 +54,7 @@
         },
         "output": {
             "click_probability": 0.9963667767812884,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
@@ -71,7 +71,7 @@
         },
         "output": {
             "click_probability": 0.9981644134920307,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
@@ -88,7 +88,7 @@
         },
         "output": {
             "click_probability": 0.9847798926333184,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
@@ -105,7 +105,7 @@
         },
         "output": {
             "click_probability": 0.9133513931977925,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
@@ -122,7 +122,7 @@
         },
         "output": {
             "click_probability": 0.9850003186366568,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
@@ -139,7 +139,7 @@
         },
         "output": {
             "click_probability": 0.9989629341168109,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
@@ -156,7 +156,7 @@
         },
         "output": {
             "click_probability": 0.9543383211041608,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
@@ -173,7 +173,7 @@
         },
         "output": {
             "click_probability": 0.8859169517185936,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
@@ -190,7 +190,7 @@
         },
         "output": {
             "click_probability": 0.9883891724952497,
-            "model_id": "2"
+            "model_id": "1"
         }
     },
     {
