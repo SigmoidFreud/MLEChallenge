@@ -2,7 +2,7 @@
 
 Installation Instructions
 1. First it is recommended that you follow the instructions for installing anaconda for your platform here: https://docs.anaconda.com/anaconda/packages/pkg-docs/
-2. The install docker so that when the flask app runs the redis image can be run in a cross platform env - https://docs.docker.com/engine/install/
+2. Then install docker so that when the flask app runs the redis image can be run in a cross platform env - https://docs.docker.com/engine/install/
 3. Then clone the repository to your local machine and open a terminal window from inside the repo directory
 4. run the command pip install -r requirements.txt
 5. then run the following commands: 
