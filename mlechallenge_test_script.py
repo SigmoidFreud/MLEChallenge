@@ -59,7 +59,7 @@ def fully_test_endpoints():
 		full_output_test.extend(model_id_test(model_id))
 		full_output_test.extend(get_click_probability_test('click_probability'))
 	with open('fully_tested_endpoint_data.json', 'w') as f:
-		json.dump(full_output_test, f)
+		json.dump(full_output_test, f, indent=4)
 
 
 if __name__ == '__main__':

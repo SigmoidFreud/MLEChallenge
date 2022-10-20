@@ -64,7 +64,7 @@ def generate_sample_test_data(test_data_length, X_train):
 		sample_features['lead_uuid'] = str(uuid.uuid4())
 		test_data.append(sample_features)
 	with open('generated_test_data.json', 'w') as f:
-		json.dump(test_data, f, cls=NpEncoder)
+		json.dump(test_data, f, indent=4, cls=NpEncoder)
 
 
 def generate_training_data(combined_data, unused_columns_in_training):
@@ -78,7 +78,7 @@ def generate_training_data(combined_data, unused_columns_in_training):
 	generate_sample_test_data(10, X_train)
 	feature_column_index_map = {column: i for i, column in enumerate(X_train.columns)}
 	with open('feature_column_index_map.json', 'w') as f:
-		json.dump(feature_column_index_map, f)
+		json.dump(feature_column_index_map, f, indent=4)
 	return X_train, Y_train
 
 

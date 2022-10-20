@@ -1,102 +1,102 @@
 [
-  {
-    "requested": 1000.0,
-    "apr": 24.56,
-    "lender_id": 327,
-    "credit": 1,
-    "loan_purpose": 0,
-    "annual_income": 36000.0,
-    "offer_id": 294063537,
-    "lead_uuid": "fbe8098b-b1c3-48b5-8809-874faf9cd494"
-  },
-  {
-    "requested": 40000.0,
-    "apr": 19.55,
-    "lender_id": 327,
-    "credit": 2,
-    "loan_purpose": 5,
-    "annual_income": 60000.0,
-    "offer_id": 691045457,
-    "lead_uuid": "17ffc140-901f-4656-9112-a2129e603e2a"
-  },
-  {
-    "requested": 1000.0,
-    "apr": 18.99,
-    "lender_id": 363,
-    "credit": 0,
-    "loan_purpose": 0,
-    "annual_income": 120000.0,
-    "offer_id": 674329214,
-    "lead_uuid": "5761e5d5-f7aa-4841-9025-b60f2229531e"
-  },
-  {
-    "requested": 1000.0,
-    "apr": 149.0,
-    "lender_id": 1777,
-    "credit": 1,
-    "loan_purpose": 5,
-    "annual_income": 60000.0,
-    "offer_id": 832151277,
-    "lead_uuid": "584fb1c9-4d47-4544-bcd5-bfb610502087"
-  },
-  {
-    "requested": 500.0,
-    "apr": 20.46,
-    "lender_id": 1103,
-    "credit": 2,
-    "loan_purpose": 0,
-    "annual_income": 18000.0,
-    "offer_id": 754637175,
-    "lead_uuid": "9104740c-10d7-405d-9a17-4b1e9a9d452c"
-  },
-  {
-    "requested": 20000.0,
-    "apr": 33.85,
-    "lender_id": 457,
-    "credit": 0,
-    "loan_purpose": 0,
-    "annual_income": 60000.0,
-    "offer_id": 522866507,
-    "lead_uuid": "64ea1459-f3e5-4f5e-a88f-aa190f189805"
-  },
-  {
-    "requested": 1000.0,
-    "apr": 98.24,
-    "lender_id": 1777,
-    "credit": 1,
-    "loan_purpose": 5,
-    "annual_income": 30000.0,
-    "offer_id": 572944093,
-    "lead_uuid": "eec9387e-807f-4686-bcdc-df45cf0d9ad8"
-  },
-  {
-    "requested": 5700.0,
-    "apr": 21.82,
-    "lender_id": 457,
-    "credit": 3,
-    "loan_purpose": 0,
-    "annual_income": 156000.0,
-    "offer_id": 227832113,
-    "lead_uuid": "83c3b10f-7d89-4a98-914a-7bc2440a0b00"
-  },
-  {
-    "requested": 1000.0,
-    "apr": 10.15,
-    "lender_id": 1777,
-    "credit": 0,
-    "loan_purpose": 0,
-    "annual_income": 36000.0,
-    "offer_id": 980943836,
-    "lead_uuid": "1e659767-be43-4f75-906f-964b341f67ea"
-  },
-  {
-    "requested": 2000.0,
-    "apr": 22.84,
-    "lender_id": 621,
-    "credit": 0,
-    "loan_purpose": 0,
-    "annual_income": 49000.0,
-    "offer_id": 834746287,
-    "lead_uuid": "33648263-63c7-4b30-8591-98997bca9b4d"
-  }
+    {
+        "apr": 249.0,
+        "credit": 2,
+        "annual_income": 114000.0,
+        "lender_id": 327,
+        "requested": 10500.0,
+        "loan_purpose": 11,
+        "offer_id": 756793655,
+        "lead_uuid": "d70d229d-c3b9-4b87-b9ae-8ae3b576aacd"
+    },
+    {
+        "apr": 159.0,
+        "credit": 0,
+        "annual_income": 48000.0,
+        "lender_id": 1777,
+        "requested": 5000.0,
+        "loan_purpose": 2,
+        "offer_id": 744701842,
+        "lead_uuid": "69bb64c2-0f04-4ef6-b171-c349963dbd85"
+    },
+    {
+        "apr": 292.0,
+        "credit": 2,
+        "annual_income": 42000.0,
+        "lender_id": 1103,
+        "requested": 20000.0,
+        "loan_purpose": 2,
+        "offer_id": 365106653,
+        "lead_uuid": "d482be02-5a25-46f6-9176-ada04e4385ca"
+    },
+    {
+        "apr": 23.04,
+        "credit": 0,
+        "annual_income": 118000.0,
+        "lender_id": 321,
+        "requested": 7500.0,
+        "loan_purpose": 0,
+        "offer_id": 884520782,
+        "lead_uuid": "265c67f6-249e-4aa3-990f-fdebbaeb201e"
+    },
+    {
+        "apr": 27.97,
+        "credit": 2,
+        "annual_income": 55008.0,
+        "lender_id": 363,
+        "requested": 1000.0,
+        "loan_purpose": 2,
+        "offer_id": 950269919,
+        "lead_uuid": "1ac0f3db-67fe-42e9-9255-9b80a5a09f7a"
+    },
+    {
+        "apr": 64.779,
+        "credit": 0,
+        "annual_income": 36000.0,
+        "lender_id": 1777,
+        "requested": 800.0,
+        "loan_purpose": 0,
+        "offer_id": 714332956,
+        "lead_uuid": "5f8c91d6-c5ce-401a-8f2e-b116487f37c4"
+    },
+    {
+        "apr": 149.0,
+        "credit": 0,
+        "annual_income": 96000.0,
+        "lender_id": 1777,
+        "requested": 6000.0,
+        "loan_purpose": 5,
+        "offer_id": 371755526,
+        "lead_uuid": "1170351b-3fe8-46c4-a8af-6c791182dfa1"
+    },
+    {
+        "apr": 10.2343,
+        "credit": 2,
+        "annual_income": 48000.0,
+        "lender_id": 1103,
+        "requested": 2000.0,
+        "loan_purpose": 2,
+        "offer_id": 563489879,
+        "lead_uuid": "0b986475-a029-4556-bdc1-943189544fcd"
+    },
+    {
+        "apr": 11.99,
+        "credit": 3,
+        "annual_income": 36000.0,
+        "lender_id": 621,
+        "requested": 2000.0,
+        "loan_purpose": 0,
+        "offer_id": 687551581,
+        "lead_uuid": "f6c0d8bd-da98-45e0-8cf7-baba25565482"
+    },
+    {
+        "apr": 149.0,
+        "credit": 1,
+        "annual_income": 72000.0,
+        "lender_id": 363,
+        "requested": 14000.0,
+        "loan_purpose": 11,
+        "offer_id": 141748231,
+        "lead_uuid": "8f264cab-2694-4219-b207-ea9e712b7623"
+    }
 ]
